@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Radars>
+
+  <!-- ADSB -->
+  <Radar Name="Mogadishu" Type="ADSB" Elevation="28" MaxRange="250">
+    <Lat>+02.006667</Lat>
+    <Long>+045.293333</Long>
+  </Radar>
+
+
+  <!--Ground
+  Radars-->
+  <Radar Name="HCMM_SMR" Type="SMR_ADSB" Elevation="28" MaxRange="5">
+    <Lat>+02.006667</Lat>
+    <Long>+045.293333</Long>
+  </Radar>
+  <Radar Name="HCMH_SMR" Type="SMR_ADSB" Elevation="4471" MaxRange="5">
+    <Lat>+09.518089</Lat>
+    <Long>+044.089708</Long>
+  </Radar>
+
+  <!--Neighboring
+  FIR Radars-->
+
+  <!-- HAAA-->
+  <Radar Name="Djibouti" Type="PRI" Elevation="49" MaxRange="60">
+    <Lat>11.550000</Lat>
+    <Long>+043.155000</Long>
+  </Radar>
+  <Radar Name="Djibouti" Type="SSR_ModeC" Elevation="49" MaxRange="250">
+    <Lat>11.550000</Lat>
+    <Long>+043.155000</Long>
+  </Radar>
+  <Radar Name="Kebri Dehar" Type="ADSB" Elevation="1800" MaxRange="250">
+    <Lat>06.733944</Lat>
+    <Long>+044.207778</Long>
+  </Radar>
+  <Radar Name="Soddo" Type="ADSB" Elevation="6400" MaxRange="250">
+    <Lat>06.833333</Lat>
+    <Long>+037.766667</Long>
+  </Radar>
+
+  <!--HKNA-->
+  <Radar Name="Mombasa SSR" Type="SSR_ModeC" Elevation="150" MaxRange="250">
+    <Lat>-04.027500</Lat>
+    <Long>+039.592778</Long>
+  </Radar>
+  <Radar Name="Mombasa ADSB" Type="ADSB" Elevation="150" MaxRange="250">
+    <Lat>-04.027500</Lat>
+    <Long>+039.592778</Long>
+  </Radar>
+  <Radar Name="Mua Hill SSR" Type="SSR_ModeC" Elevation="6860" MaxRange="250">
+    <Lat>-01.472231</Lat>
+    <Long>+037.191497</Long>
+  </Radar>
+  <Radar Name="Wajir SSR" Type="SSR_ModeC" Elevation="830" MaxRange="250">
+    <Lat>01.727925</Lat>
+    <Long>+040.089625</Long>
+  </Radar>
+
+</Radars>

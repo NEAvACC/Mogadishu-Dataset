@@ -1,0 +1,72 @@
+<Sectors>
+
+  <!-- ACC -->
+
+  <Sector Name="MOG" FullName="Mogadishu Control" Frequency="132.500" Callsign="HCSM_CTR">
+    <Volumes>HCSM</Volumes>
+    <ResponsibleSectors>MOA</ResponsibleSectors>
+  </Sector>
+
+  <!-- APP -->
+
+  <Sector Name="MOA" FullName="Mogadishu Approach" Frequency="119.700" Callsign="HCMM_APP">
+    <Volumes>HCMM_TMA</Volumes>
+  </Sector>
+
+  <!-- TWR -->
+
+  <Sector Name="MO ADC" FullName="Mogadishu Tower" Frequency="118.100" Callsign="HCMM_TWR"
+    DisplayInHandoffWindow="False">
+    <Volumes>HCMM_CTR</Volumes>
+  </Sector>
+  <Sector Name="HR ADC" FullName="Hargeisa Tower" Frequency="118.700" Callsign="HCMH_TWR"
+    DisplayInHandoffWindow="False">
+    <Volumes>HCMH_CTR</Volumes>
+  </Sector>
+  <Sector Name="BS ADC" FullName="Bosaso Tower" Frequency="120.900" Callsign="HCMF_TWR"
+    DisplayInHandoffWindow="False">
+    <Volumes>HCMF_CTR</Volumes>
+  </Sector>
+
+
+  <!-- Sectors for handoff (!!YET TO BE COMPLETED!!)-->
+
+  <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFC">
+    <Volumes>FSSS,HKNA_N,HKNA_S</Volumes>
+  </Sector>
+  <Sector FullName="Africa East Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFE">
+    <Volumes>HAAA,HDAM_APP</Volumes>
+  </Sector>
+  <Sector FullName="Gulf Control" Frequency="133.650" Callsign="GULF_FSS" Name="GCC">
+    <Volumes>OYSC</Volumes>
+  </Sector>
+  <Sector FullName="Gulf Control" Frequency="133.500" Callsign="GULF_W_FSS" Name="GCW">
+    <Volumes>OYSC</Volumes>
+  </Sector>
+  <Sector FullName="West Asia Control" Frequency="135.400" Callsign="ASIA_W_FSS" Name="ACW">
+    <Volumes>ASIAW</Volumes>
+  </Sector>
+  <Sector FullName="Sanna Control" Frequency="120.100" Callsign="OYSC_CTR" Name="SAN">
+    <Volumes>OYSC</Volumes>
+  </Sector>
+  <Sector FullName="Addis Control" Frequency="125.100" Callsign="HAAA_1_CTR" Name="AAW">
+    <Volumes>HAAA</Volumes>
+  </Sector>
+  <Sector FullName="Addis Control" Frequency="125.200" Callsign="HAAA_2_CTR" Name="AAE">
+    <Volumes>HAAA</Volumes>
+  </Sector>
+  <Sector FullName="Nairobi Control" Frequency="121.300" Callsign="HKNA_CTR" Name="NRN">
+    <Volumes>HKNA_N</Volumes>
+  </Sector>
+  <Sector FullName="Nairobi South" Frequency="125.300" Callsign="HKNA_S_CTR" Name="NRS">
+    <Volumes>HKNA_S</Volumes>
+  </Sector>
+  <Sector FullName="Seychelles Control" Frequency="120.200" Callsign="FSSS_CTR" Name="SAN">
+    <Volumes>FSSS</Volumes>
+  </Sector>
+  <Sector FullName="Djibouti Approach" Frequency="121.200" Callsign="FSSS_CTR" Name="SAN">
+    <Volumes>HDAM_APP</Volumes>
+  </Sector>
+
+
+</Sectors>

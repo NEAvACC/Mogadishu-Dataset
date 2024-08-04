@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Maps>
+    <Map Name="ALL_POINTS_HIGH" Priority="0" Type="System">
+        <Label hasLeader="true">
+        </Label>
+    </Map>
+</Maps>

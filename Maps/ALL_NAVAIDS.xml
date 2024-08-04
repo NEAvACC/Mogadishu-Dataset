@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Maps>
+    <Map Name="ALL_NAVAIDS" Priority="0" Type="System">
+        <Symbol Type="Hexagon">
+        </Symbol>
+    </Map>
+    <Map Name="ALL_NAVAIDS_NAMES" Priority="0" Type="System">
+        <Label hasLeader="true">
+            <!-- VORs -->
+        </Label>
+    </Map>
+</Maps>

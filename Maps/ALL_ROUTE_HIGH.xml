@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Maps>
+    <Map Name="ALL_ROUTE_HIGH" Priority="0" Type="System">
+        <Symbol Type="HollowTriangle">
+        </Symbol>
+    </Map>
+</Maps>

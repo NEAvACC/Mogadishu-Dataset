@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile Name="Mogadishu" FullName="Eurocat Mogadishu (HCSM)">
+	<Version AIRAC="2407" Revision="a" PublishDate="20240711"
+		UpdateURL="https://github.com/NEAvACC/Mogadishu-Dataset/raw/release/Published" />
+	<Servers>
+		<VATSIMStatus url="https://status.vatsim.net/" />
+		<GRIB url="https://sawbe.com/GRIB/" />
+		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
+	</Servers>
+</Profile>

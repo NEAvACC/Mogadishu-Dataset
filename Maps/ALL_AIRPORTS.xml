@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Maps>
+    <Map Name="ALL_AIRPORTS" Priority="0" Type="System2">
+        <Symbol Type="HollowSquare">
+        </Symbol>
+        <Label hasLeader="true">
+        </Label>
+    </Map>
+</Maps>

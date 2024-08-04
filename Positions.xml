@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!--ACC
+  Positions-->
+
+  <Position Name="Mogadishu Control" Type="ASD" DefaultCenter="+07.427763+050.229689"
+    DefaultRange="2500">
+    <Sectors>
+      <Sector Name="HCSM" />
+    </Sectors>
+    <ManualVisibility>
+      <Point>+01.970632+045.257525</Point>
+      <Point>+11.110216+044.702596</Point>
+      <Point>+11.753537+056.777851</Point>
+      <Point>+05.431251+052.538194</Point>
+    </ManualVisibility>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_ROUTE_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HCMM" />
+      <Airport Name="HCMH" />
+    </ArrivalLists>
+    <CFL QuickLevel="3000" />
+    <ControllerInfo>
+      <Line>"Mogadishu Control" | CPDLC [HCSM] FL245+</Line>
+      <Line>Procedural Service | Position Reporting Mandatory | Check Your Sim Zulu Time Is Correct</Line>
+      <Line>ADS-B and VHF coverage only within 240NM of position MOGDU</Line>
+    </ControllerInfo>
+  </Position>
+
+  <!--APP
+  Positions-->
+
+  <Position Name="Mogadishu Approach" Type="ASD" DefaultCenter="+02.013958+045.304028"
+    DefaultRange="800">
+    <Sectors>
+      <Sector Name="MOA" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_CTR" />
+      <Map Name="ALL_ROUTE_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HCMM" />
+    </ArrivalLists>
+    <CFL QuickLevel="3000" />
+    <CFL QuickLevel="24000" />
+    <ControllerInfo>
+      <Line>"Mogadishu Approach"</Line>
+      <Line>ADS-B and VHF coverage only within 240NM of position MOGDU</Line>
+    </ControllerInfo>
+  </Position>
+
+  <!--
+  TWR Positions-->
+
+  <Position Name="Mogadishu Tower" Type="ASD" DefaultCenter="+02.013958+045.304028"
+    DefaultRange="180">
+    <Sectors>
+      <Sector Name="MO ADC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_CTR" />
+      <Map Name="ALL_ROUTE_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+    </Maps>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="HCMM" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="24000" />
+    <ArrivalLists>
+      <Airport Name="HCMM" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>"Mogadishu Tower"</Line>
+      <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Hargeisa Tower" Type="ASD" DefaultCenter="+09.518089+044.089708"
+    DefaultRange="180">
+    <Sectors>
+      <Sector Name="HR ADC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_CTR" />
+      <Map Name="ALL_ROUTE_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+    </Maps>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="HCMH" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="24000" />
+    <ArrivalLists>
+      <Airport Name="HCMH" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>"Hargeisa Tower"</Line>
+      <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Bosaso Tower" Type="ASD" DefaultCenter="+11.275278+049.141389" DefaultRange="180">
+    <Sectors>
+      <Sector Name="BS ADC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="ALL_NAVAIDS_NAMES" />
+      <Map Name="COAST" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="ALL_TMA" />
+      <Map Name="ALL_CTR" />
+      <Map Name="ALL_ROUTE_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+    </Maps>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="HCMF" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="24000" />
+    <ArrivalLists>
+      <Airport Name="HCMF" />
+    </ArrivalLists>
+    <DepartureLists>
+      <Airport Name="HCMF" />
+    </DepartureLists>
+    <ControllerInfo>
+      <Line>"Bosaso Tower"</Line>
+      <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+    </ControllerInfo>
+  </Position>
+
+</Positions>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Profile Name="Sudan" FullName="Eurocat Sudan (HSSS/HJJJ)">
-	<Version AIRAC="2407" Revision="b" PublishDate="20240711" UpdateURL="https://github.com/NEAvACC/Khartoum-Dataset/raw/release/Published"/>
+<Profile Name="Mogadishu" FullName="Eurocat Mogadishu (HCSM)">
+	<Version AIRAC="2407" Revision="a" PublishDate="20240711"
+		UpdateURL="https://github.com/NEAvACC/Mogadishu-Dataset/raw/release/Published" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="https://sawbe.com/GRIB/" />

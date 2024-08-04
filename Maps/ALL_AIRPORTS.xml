@@ -2,44 +2,8 @@
 <Maps>
     <Map Name="ALL_AIRPORTS" Priority="0" Type="System2">
         <Symbol Type="HollowSquare">
-            <Point>HJJJ</Point>
-            <Point>HJMK</Point>
-            <Point>HJWW</Point>
-            <Point>HKLG</Point>
-            <Point>HKLK</Point>
-            <Point>HSAT</Point>
-            <Point>HSDN</Point>
-            <Point>HSDZ</Point>
-            <Point>HSFS</Point>
-            <Point>HSKA</Point>
-            <Point>HSLI</Point>
-            <Point>HSMN</Point>
-            <Point>HSNN</Point>
-            <Point>HSOB</Point>
-            <Point>HSPN</Point>
-            <Point>HSSG</Point>
-            <Point>HSSK</Point>
-            <Point>HSSW</Point>
         </Symbol>
         <Label hasLeader="true">
-            <Point Name="HJJJ">HJJJ</Point>
-            <Point Name="HJMK">HJMK</Point>
-            <Point Name="HJWW">HJWW</Point>
-            <Point Name="HKLG">HKLG</Point>
-            <Point Name="HKLK">HKLK</Point>
-            <Point Name="HSAT">HSAT</Point>
-            <Point Name="HSDN">HSDN</Point>
-            <Point Name="HSDZ">HSDZ</Point>
-            <Point Name="HSFS">HSFS</Point>
-            <Point Name="HSKA">HSKA</Point>
-            <Point Name="HSLI">HSLI</Point>
-            <Point Name="HSMN">HSMN</Point>
-            <Point Name="HSNN">HSNN</Point>
-            <Point Name="HSOB">HSOB</Point>
-            <Point Name="HSPN">HSPN</Point>
-            <Point Name="HSSG">HSSG</Point>
-            <Point Name="HSSK">HSSK</Point>
-            <Point Name="HSSW">HSSW</Point>
         </Label>
     </Map>
 </Maps>

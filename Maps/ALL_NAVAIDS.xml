@@ -2,35 +2,11 @@
 <Maps>
     <Map Name="ALL_NAVAIDS" Priority="0" Type="System">
         <Symbol Type="Hexagon">
-            <Point>DOG</Point>
-            <Point>FSR</Point>
-            <Point>GNA</Point>
-            <Point>JUB</Point>
-            <Point>KNA</Point>
-            <Point>KSL</Point>
-            <Point>KTM</Point>
-            <Point>MLK</Point>
-            <Point>MRW</Point>
-            <Point>NYL</Point>
-            <Point>OBD</Point>
-            <Point>PSD</Point>
         </Symbol>
     </Map>
     <Map Name="ALL_NAVAIDS_NAMES" Priority="0" Type="System">
         <Label hasLeader="true">
             <!-- VORs -->
-            <Point Name="DOG">DOG</Point>
-            <Point Name="FSR">FSR</Point>
-            <Point Name="GNA">GNA</Point>
-            <Point Name="JUB">JUB</Point>
-            <Point Name="KNA">KNA</Point>
-            <Point Name="KSL">KSL</Point>
-            <Point Name="KTM">KTM</Point>
-            <Point Name="MLK">MLK</Point>
-            <Point Name="MRW">MRW</Point>
-            <Point Name="NYL">NYL</Point>
-            <Point Name="OBD">OBD</Point>
-            <Point Name="PSD">PSD</Point>
         </Label>
     </Map>
 </Maps>

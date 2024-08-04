@@ -61,10 +61,10 @@
   <Sector FullName="Nairobi South" Frequency="125.300" Callsign="HKNA_S_CTR" Name="NRS">
     <Volumes>HKNA_S</Volumes>
   </Sector>
-  <Sector FullName="Seychelles Control" Frequency="120.200" Callsign="FSSS_CTR" Name="SAN">
+  <Sector FullName="Seychelles Control" Frequency="120.200" Callsign="FSSS_CTR" Name="SAY">
     <Volumes>FSSS</Volumes>
   </Sector>
-  <Sector FullName="Djibouti Approach" Frequency="121.200" Callsign="FSSS_CTR" Name="SAN">
+  <Sector FullName="Djibouti Approach" Frequency="121.200" Callsign="HDAM_APP" Name="DJI">
     <Volumes>HDAM_APP</Volumes>
   </Sector>
 

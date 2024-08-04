@@ -6,7 +6,7 @@
   Positions-->
 
   <Position Name="Mogadishu Control" Type="ASD" DefaultCenter="+07.427763+050.229689"
-    DefaultRange="2500">
+    DefaultRange="3200">
     <Sectors>
       <Sector Name="HCSM" />
     </Sectors>

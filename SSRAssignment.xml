@@ -3,8 +3,27 @@
   <!-- Code "Bins" define available codes and their assigned Regex rules. 
 		Priority is applied by the order they appear in this file. -->
 
-  <!-- Excluded Codes are never assigned -->
+  <!-- VFR Flights -->
   <Bin>
+    <Rule FlightRule="V" />
+    <Codes Start="7001" End="7077" />
+  </Bin>
+
+  <!-- Domestic Flights -->
+  <Bin>
+    <Rule Departure="HC\w{2}" Destination="HC\w{2}" />
     <Codes Start="2000" End="2000" />
+  </Bin>
+
+  <!-- International Flights -->
+  <Bin>
+    <Rule Departure="HC\w{2}" />
+    <Codes Start="2000" End="2000" />
+  </Bin>
+
+  <!-- Transit Flights -->
+  <Bin>
+    <Codes Start="3101" End="3177" />
+    <Codes Start="2301" End="2377" />
   </Bin>
 </SSRAssignment>

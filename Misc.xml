@@ -9,4 +9,5 @@
   <FilterGroundTracks>HCMM,HCMH</FilterGroundTracks>
   <PDCAirports>HCMM,HCMH</PDCAirports>
   <BRL LabelType="Extended" />
+  <ASSR AutoAssign="True" ShowNonDiscreteErrors="False" ShowMismatchErrors="False" />
 </Misc>

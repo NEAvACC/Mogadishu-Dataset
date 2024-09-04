@@ -14,9 +14,25 @@
     <Lat>+02.006667</Lat>
     <Long>+045.293333</Long>
   </Radar>
+    <Radar Name="HCMM_SMR" Type="SMR" Elevation="28" MaxRange="5">
+    <Lat>+02.006667</Lat>
+    <Long>+045.293333</Long>
+  </Radar>
   <Radar Name="HCMH_SMR" Type="SMR_ADSB" Elevation="4471" MaxRange="5">
     <Lat>+09.518089</Lat>
     <Long>+044.089708</Long>
+  </Radar>
+    <Radar Name="HCMH_SMR" Type="SMR" Elevation="4471" MaxRange="5">
+    <Lat>+09.518089</Lat>
+    <Long>+044.089708</Long>
+  </Radar>
+    <Radar Name="HCMF_SMR" Type="SMR_ADSB" Elevation="3" MaxRange="5">
+    <Lat>11.275278</Lat>
+    <Long>+049.141389</Long>
+  </Radar>
+      <Radar Name="HCMF_SMR" Type="SMR" Elevation="3" MaxRange="5">
+    <Lat>11.275278</Lat>
+    <Long>+049.141389</Long>
   </Radar>
 
   <!--Neighboring
@@ -27,7 +43,7 @@
     <Lat>11.550000</Lat>
     <Long>+043.155000</Long>
   </Radar>
-  <Radar Name="Djibouti" Type="SSR_ModeC" Elevation="49" MaxRange="250">
+  <Radar Name="Djibouti" Type="SSR_ModeC" Elevation="49" MaxRange="256">
     <Lat>11.550000</Lat>
     <Long>+043.155000</Long>
   </Radar>
@@ -41,7 +57,7 @@
   </Radar>
 
   <!--HKNA-->
-  <Radar Name="Mombasa SSR" Type="SSR_ModeC" Elevation="150" MaxRange="250">
+  <Radar Name="Mombasa SSR" Type="SSR_ModeC" Elevation="150" MaxRange="256">
     <Lat>-04.027500</Lat>
     <Long>+039.592778</Long>
   </Radar>
@@ -49,11 +65,11 @@
     <Lat>-04.027500</Lat>
     <Long>+039.592778</Long>
   </Radar>
-  <Radar Name="Mua Hill SSR" Type="SSR_ModeC" Elevation="6860" MaxRange="250">
+  <Radar Name="Mua Hill SSR" Type="SSR_ModeC" Elevation="6860" MaxRange="256">
     <Lat>-01.472231</Lat>
     <Long>+037.191497</Long>
   </Radar>
-  <Radar Name="Wajir SSR" Type="SSR_ModeC" Elevation="830" MaxRange="250">
+  <Radar Name="Wajir SSR" Type="SSR_ModeC" Elevation="830" MaxRange="256">
     <Lat>01.727925</Lat>
     <Long>+040.089625</Long>
   </Radar>

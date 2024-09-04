@@ -1792,7 +1792,7 @@
 
   <!-- TMA Volume -->
 
-  <Volume Name="HCMM_TMA" LowerLimit="4000" UpperLimit="24000">
+  <Volume Name="HCMM_TMA" LowerLimit="3000" UpperLimit="24000">
     <Boundaries>HCMM_TMA</Boundaries>
   </Volume>
 
@@ -1820,6 +1820,9 @@
     <Boundaries>HAAA,HDAM_TMA</Boundaries>
   </Volume>
   <Volume Name="GULF" LowerLimit="24000" UpperLimit="60000">
+    <Boundaries>OYSC</Boundaries>
+  </Volume>
+  <Volume Name="GULF_W" LowerLimit="24000" UpperLimit="60000">
     <Boundaries>OYSC</Boundaries>
   </Volume>
   <Volume Name="AFRC" LowerLimit="24000" UpperLimit="60000">

@@ -70,7 +70,7 @@
     <Message Response="NE">AT PILOTS DISCRETION</Message>		
     <Message Response="R">NO REPORTED IFR TRAFFIC</Message>	
     <Message Response="R">REQUEST RECEIVED RESPONSE WILL BE VIA VOICE</Message>	
-    <Message Response="R">ALTIMETER [QNH]</Message>
+    <Message Response="R">QNH [QNH]</Message>
     <Message Response="R">CHECK STUCK MICROPHONE [FREQUENCY]</Message>
     <Message Response="R">ATIS [CODE]</Message>	
   </Category>
